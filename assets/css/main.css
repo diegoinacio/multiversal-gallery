@@ -1479,6 +1479,8 @@ input, select, textarea {
 		user-select: none;
 		width: 100%;
 		z-index: 10002;
+		/* Customization */
+		text-align: right;
 	}
 
 		body.is-preload #header {
