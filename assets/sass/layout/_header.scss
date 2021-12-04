@@ -41,12 +41,7 @@ body {
     vertical-align: middle;
 
     a {
-      border: 0;
-      color: inherit;
-
-      &:hover {
-        color: inherit !important;
-      }
+      border-bottom: none;
     }
   }
 
