@@ -1,0 +1,55 @@
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      circle {
+        stroke: cyan;
+        stroke-width: 4px;
+      }
+
+      stop#point01 {
+        stop-color: white;
+        stop-opacity: 1;
+      }
+
+      stop#point02 {
+        stop-color: yellow;
+        stop-opacity: 0.75;
+      }
+
+      stop#point03 {
+        stop-color: red;
+        stop-opacity: 0.5;
+      }
+
+      stop#point04 {
+        stop-color: black;
+        stop-opacity: 1;
+      }
+
+      stop#point05 {
+        stop-color: cyan;
+        stop-opacity: 1;
+      }
+
+      stop#point06 {
+        stop-color: blue;
+        stop-opacity: 0.75;
+      }
+
+      stop#point07 {
+        stop-color: black;
+        stop-opacity: 1;
+      }
+    </style>
+    <linearGradient id="grad1" x1="0" y1="1" x2="0" y2="0">
+      <stop id="point01" offset="0.00" />
+      <stop id="point02" offset="0.16" />
+      <stop id="point03" offset="0.33" />
+      <stop id="point04" offset="0.50" />
+      <stop id="point05" offset="0.51" />
+      <stop id="point06" offset="0.75" />
+      <stop id="point07" offset="1.00" />
+    </linearGradient>
+  </defs>
+  <circle cx="128" cy="128" r="120" fill="url(#grad1)" />
+</svg>
