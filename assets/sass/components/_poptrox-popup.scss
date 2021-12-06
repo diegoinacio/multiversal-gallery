@@ -80,7 +80,7 @@
   }
 
   .caption {
-    @include padding(2em, 2em);
+    @include padding(1em, 1em);
     @include vendor(
       "background-image",
       "linear-gradient(to top, rgba(16,16,16,0.45) 25%, rgba(16,16,16,0) 100%)"
@@ -92,6 +92,11 @@
     text-align: left;
     width: 100%;
     z-index: 2;
+    background-color: _palette(bg-overlay-alt);
+    -moz-backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    -ms-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
 
     h2,
     h3,
@@ -103,6 +108,16 @@
 
     p {
       color: _palette(fg-bold);
+      margin-bottom: 1em;
+    }
+
+    #bt-full-resolution {
+      margin: 0;
+      padding: 1em;
+      border: none;
+      position: absolute;
+      right: 0;
+      top: 0;
     }
   }
 

@@ -86,3 +86,25 @@ $palette: (
   border-bg-alt: #44464b,
   accent1: #34a58e,
 );
+
+// Hover color
+@keyframes hover-color {
+  0% {
+    color: inherit;
+  }
+  20% {
+    color: hsl(50, 100%, 50%);
+  }
+  40% {
+    color: hsl(150, 100%, 50%);
+  }
+  60% {
+    color: hsl(200, 100%, 50%);
+  }
+  80% {
+    color: hsl(300, 100%, 50%);
+  }
+  100% {
+    color: inherit;
+  }
+}
