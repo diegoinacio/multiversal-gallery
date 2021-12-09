@@ -1,4 +1,10 @@
 export const INDEX = [
+  // ! Mandelbrot Set
+  {
+    id: "mandelbrot-set",
+    name: "Mandelbrot Set",
+    description: `A <a href="https://en.wikipedia.org/wiki/Mandelbrot_set" target="_blank">Mandelbrot Set</a> fractal with <em>1 million iterations</em> at Re[-0.4511, -0.4501] and Im[0.5543, 0.5553].`,
+  },
   // ! Volume Rendering of CT scan
   {
     id: "volume_rendering_ct_scan",
