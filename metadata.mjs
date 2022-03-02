@@ -1,4 +1,10 @@
 export const INDEX = [
+  // ! Electric and Equipotential Lines
+  {
+    id: "electric-equipotential-lines",
+    name: "Electric and Equipotential Lines",
+    description: `Representation of the <a href="https://en.wikipedia.org/wiki/Electric_field" target="_blank">electric field</a> and the <a href="https://en.wikipedia.org/wiki/Equipotential" target="_blank">equipotential lines</a> of electric dipoles and multiple electric charges system.`,
+  },
   // ! Mandelbrot Set
   {
     id: "mandelbrot-set",
