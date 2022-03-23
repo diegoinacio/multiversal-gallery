@@ -1648,6 +1648,15 @@ body.is-preload #header {
   width: 100%;
 }
 
+#main .thumb:hover:after {
+  background-color: rgba(128, 128, 128, 0.1);
+}
+
+#main .thumb:hover > h2 {
+  font-size: 0.85em;
+  font-weight: bolder;
+}
+
 #main .thumb > .image {
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
   background-position: center;
