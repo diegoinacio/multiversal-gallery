@@ -1,4 +1,10 @@
 export const INDEX = [
+  // ! Prime Numbers Spiral
+  {
+    id: "prime-numbers-spiral",
+    name: "Prime Numbers Spiral",
+    description: `A <a href="https://en.wikipedia.org/wiki/Ulam_spiral" target="_blank">prime numbers spiral</a> of size 200x200.`,
+  },
   // ! Electric and Equipotential Lines
   {
     id: "electric-equipotential-lines",
