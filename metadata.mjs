@@ -3,7 +3,7 @@ export const INDEX = [
   {
     id: "prime-numbers-spiral",
     name: "Prime Numbers Spiral",
-    description: `A <a href="https://en.wikipedia.org/wiki/Ulam_spiral" target="_blank">prime numbers spiral</a> of size 200x200.`,
+    description: `A <a href="https://en.wikipedia.org/wiki/Ulam_spiral" target="_blank">prime numbers spiral</a> of size 233x144, which are relative to the elements <em>F<sub>13</sub></em> and <em>F<sub>12</sub></em> of the Fibonacci sequence, respectively.`,
   },
   // ! Electric and Equipotential Lines
   {
