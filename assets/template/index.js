@@ -1,11 +1,11 @@
 import { INDEX } from "../../metadata.mjs";
 
-// * Init main content
+// ! Init main content
 const main = document.querySelector("#main");
 main.innerHTML = "";
 
 for (const [i, a] of INDEX.entries()) {
-  // ! Build article
+  // * Build article
   const article = document.createElement("article");
   article.id = a.id;
   article.className = "thumb";
@@ -26,3 +26,14 @@ for (const [i, a] of INDEX.entries()) {
   ></a>
   `;
 }
+
+// ! Include copyright to header
+const header = document.querySelector("#header");
+
+const copyright = document.createElement("div");
+copyright.className = "copyright";
+
+let year_ft = new Date().getFullYear();
+copyright.innerText = `© ${year_ft} Diego Inácio. All rights reserved.`;
+
+header.appendChild(copyright);
