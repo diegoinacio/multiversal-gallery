@@ -1,4 +1,10 @@
 export const INDEX = [
+  // ! Modular Multiplication on Spiral
+  {
+    id: "modular-multiplication-on-spiral",
+    name: "Modular Multiplication on Spiral",
+    description: `A modular multiplication system on a parametric spiral (x, y) = (t*sin(t), t*cos(t)). Each sample has a criterion for coloring its connected edges.`,
+  },
   // ! Prime Numbers Spiral
   {
     id: "prime-numbers-spiral",
