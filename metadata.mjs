@@ -1,4 +1,10 @@
 export const INDEX = [
+  // ! Delaunay-Voronoi
+  {
+    id: "delaunay-voronoi",
+    name: "Delaunay-Voronoi",
+    description: `Relationship between <a href="https://en.wikipedia.org/wiki/Delaunay_triangulation">Delaunay triangulation</a> and <a href="https://en.wikipedia.org/wiki/Voronoi_diagram">Voronoi diagram</a> for a discrete set of points.`,
+  },
   // ! Modular Multiplication on Spiral
   {
     id: "modular-multiplication-on-spiral",
